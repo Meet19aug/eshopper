@@ -33,7 +33,8 @@ const About = () => {
             </span>
           </div>
           <div className="aboutSectionContainer2">
-            <Typography component="h2">Our Brands</Typography>
+            <Typography component="h2">Reach out to me on Social Media</Typography>
+            <div className='subAboutSectionContainer'>
             <a
               href="https://github.com/Meet19aug"
               target="blank"
@@ -51,6 +52,7 @@ const About = () => {
             <a href="https://www.instagram.com/patel_meet_1908/" target="_blank">
               <InstagramIcon className="instagramSvgIcon" />
             </a>
+            </div>
           </div>
         </div>
       </div>

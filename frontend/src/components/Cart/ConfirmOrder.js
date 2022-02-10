@@ -26,7 +26,7 @@ const ConfirmOrder = () => {
 
     const totalPrice = subTotal + tax + shippingCharge;
 
-    const address = `${shippingInfo.address}, ${shippingInfo.city}, ${shippingInfo.state}, ${shippingInfo.pincode}, ${shippingInfo.country}.`;
+    const address = `${shippingInfo.address}, ${shippingInfo.city}, ${shippingInfo.state}, ${shippingInfo.pinCode}, ${shippingInfo.country}.`;
 
     const proceedToPayment = ()=>{
         const data = {

@@ -21,6 +21,7 @@
   }
   .login_signUp_toggle {
     display: flex;
+    padding-top: 2vh;
     height: 3vmax;
   }
   .login_signUp_toggle > p {

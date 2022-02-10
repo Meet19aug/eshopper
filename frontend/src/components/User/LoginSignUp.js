@@ -72,7 +72,6 @@ const LoginSignUp = ({location}) => {
     //   const redirectURL = location.search ? location.search.split("?")[1] : "/account";
     //https://stackoverflow.com/questions/64566405/react-router-dom-v6-usenavigate-passing-value-to-another-component/64566486
       const { state } = useLocation();
-      console.log("State is :", state);
       const redirectURL = state ? state : "/account";
       useEffect(() => {
           if(error){

@@ -70,6 +70,12 @@
 .aboutSectionContainer2 {
   border-left: 1px solid rgba(0, 0, 0, 0.116);
 }
+.subAboutSectionContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .aboutSectionContainer2 > h2 {
   color: rgba(0, 0, 0, 0.623);
@@ -110,6 +116,9 @@
 
   .aboutSectionContainer2 {
     border-left: none;
+  }
+  .subAboutSectionContainer{
+    flex-direction: row;
   }
 
   .aboutSectionContainer2 > h2 {
